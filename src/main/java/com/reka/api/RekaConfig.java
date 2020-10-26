@@ -18,11 +18,4 @@ public class RekaConfig extends ResourceConfig {
         // allow using multipart form data for uploads
         register(MultiPartFeature.class);
     }
-//    @Override
-//    public Set<Class<?>> () {
-//        final Set<Class<?>> classes = new HashSet<>();
-//        classes.add(RekaFeature.class);
-//        classes.add(RekaResource.class);
-//        return classes;
-//    }
 }
